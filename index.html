@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  
+  <title>Expenses chart component</title>
+
+</head>
+<body>
+  <div class="top">
+    <div class="topleft">
+      <p style="font-size: 14px;">My balance</p>
+      <p style="margin-top:8px;font-size:26px;font-weight: 700;">$921.48</p>
+    </div>
+    <div class="topright">
+      <img src="./images/logo.svg" alt="">
+    </div>
+  </div>
+  <div class="bottom">
+    <div class="title">
+      <h2 style="color: hsl(25, 47%, 15%);">Spending - Last 7 days</h2>
+    </div>
+    <div class="chart">
+      <div class="row1">
+        <div class="elem e0">
+          <div class="info i0 hidden" id="lol"></div>
+        </div>
+        <div class="elem e1">
+          <div class="info i1 hidden"></div>
+        </div>
+        <div class="elem e2">
+          <div class="info i2 hidden"></div>
+        </div>
+        <div class="elem e3">
+          <div class="info i3 hidden"></div>
+        </div>
+        <div class="elem e4">
+          <div class="info i4 hidden"></div>
+        </div>
+        <div class="elem e5">
+          <div class="info i5 hidden"></div>
+        </div>
+        <div class="elem e6">
+          <div class="info i6 hidden"></div>
+        </div>
+      </div>
+      <div class="row2">
+        <p class="day d0"></p>
+        <p class="day d1"></p>
+        <p class="day d2"></p>
+        <p class="day d3"></p>
+        <p class="day d4"></p>
+        <p class="day d5"></p>
+        <p class="day d6"></p>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footleft">
+        <p style="font-size:14px;color:hsl(28, 10%, 53%);">Total this month</p>
+        <p style="margin-top:8px;font-size:32px;font-weight: 700;color:hsl(25, 47%, 15%);">$478.33</p>
+      </div>
+      <div class="footright">
+        <p style="margin-top:16px;font-size: 14px;color: hsl(25, 47%, 15%);font-weight: 700;">+2.4%</p>
+        <p style="font-size:14px;color:hsl(28, 10%, 53%);">from last month</p>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
